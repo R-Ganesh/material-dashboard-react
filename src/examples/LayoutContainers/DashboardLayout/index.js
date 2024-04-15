@@ -26,6 +26,7 @@ import MDBox from "components/MDBox";
 
 // Material Dashboard 2 React context
 import { useMaterialUIController, setLayout } from "context";
+import { React } from "react";
 
 function DashboardLayout({ children }) {
   const [controller, dispatch] = useMaterialUIController();

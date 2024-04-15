@@ -66,7 +66,7 @@ function Header({ children }) {
 
   return (
     <MDBox position="relative" mb={5}>
-      <MDBox
+      {/* <MDBox
         display="flex"
         alignItems="center"
         position="relative"
@@ -82,11 +82,10 @@ function Header({ children }) {
           backgroundPosition: "50%",
           overflow: "hidden",
         }}
-      />
+      /> */}
       <Card
         sx={{
           position: "relative",
-          mt: -8,
           mx: 3,
           py: 2,
           px: 2,
@@ -99,10 +98,10 @@ function Header({ children }) {
           <Grid item>
             <MDBox height="100%" mt={0.5} lineHeight={1}>
               <MDTypography variant="h5" fontWeight="medium">
-                Richard Davis
+                Camera
               </MDTypography>
               <MDTypography variant="button" color="text" fontWeight="regular">
-                CEO / Co-Founder
+                Live
               </MDTypography>
             </MDBox>
           </Grid>
